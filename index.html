@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 3 Iguanas</title>
+    <!-- Con esto vinculamos el archivo CSS a nuestro HTML para que la pagina quede bonita.-->
+    <link rel="stylesheet" href="assets/CSS/Estilos_Desafio3.CSS"> 
+    <script src="https://kit.fontawesome.com/2fee160e5c.js" crossorigin="anonymous"></script>
+</head>
+
+<body> <!-- Dentro del body, tengo el header, el main y el footer.-->
+
+    <header> <!-- Aqui va a ir el titulo de Iguanas. -->
+        <h1> Iguanas </h1>
+    </header>
+
+    <!-- Hasta aqui vamos bien. Cree el titulo con su diseño y posicion. OK -->
+
+    <main> <!-- La imagen de fondo se ve bien. -->
+        <div class="ImagenFondo"> </div>
+
+        <!-- Hasta aqui tambien vamos bien. Solo cree un div para colocar la imagen grande de fondo y poder trabajar sobre ella de manera autonoma.-->
+
+        <section> 
+            <article> 
+            
+                <!-- Aquí creo un article en donde ira un parrafo y una imagen al lado. Para eso, volveré a crear un div pero esta vez con class = Iguana2. para trabajar la imagen. Crearé un p para poner el parrafo (con su respectiva clase) y una vez tenga esos dos elementos trabajados por separado, trabajaré sobre el article para ponerlos en orden.-->
+
+                <div class="Iguana2"> </div> <!-- Primero va esta imagen -->
+
+                <p class="InfoIguanas"> <!-- Aqui tengo la etiqueta del parrafo. -->
+                    Las iguanas son unos reptiles que tienen una coloración de su cuerpo verde claro, aunque en algunas especies este suele ser algo más oscuro o apagado. Sus patas traseras tienen un tamaño mayor que las delanteras, pero tanto unas como otras tienen unas garras fuertes y muy afiladas que le ayudan a subirse a árboles, anclándose a la madera para no caerse. También les ayuda a desgarrar el cuerpo de sus víctimas o incluso arañar el suelo o las verduras que come. Su cola puede medir tanto como su cuerpo, teniendo en ella mucha fuerza, ya que la utiliza para defenderse.
+                </p> 
+
+            </article>
+        </section>
+        <!-- Con esto puedo decir que ya termine la seccion de article (recordar que esta dentro del main). Se ve bien la imagen y el texto, estan alineados. Use los comandos correspondientes (espero) y esta bonito. Ahora vamos a otra etiqueta que se llama section. En esta irá la parte de categorias de la pagina. Este section si va dentro del main que es el cuerpo de la pagina o el body como lo conocemos.  -->
+
+        <!-- Ahora pondré el titulo de Caracteristicas. Para eso colocaré un div con id para que su prioridad sea mayor que los demas cambios. Lo coloco fuera del section porque este ultimo lo modificaré para que los items aparezcan uno al lado del otro. Si dejaba el "Caracteristicas" ahí, se me iba a alinear junto con los otros.  -->
+
+        <section> 
+
+            <div id="SubTitulo"> 
+                <h2 class="Caracteristicas"> Características </h2>
+            </div>
+        
+            <!-- El section va a tener un titulo h2 que se llama Caracteristicas. Tiene su respectivo bloque. Al igual que en el article, aqui le pondremos un id o una class a section pero aparte trabajaremos con div para separar cada caracteristica en su respectivo cuadrado las cuales van a ir acompañadas de un poco de texto y su imagen.  -->
+
+            <!-- Trabajaremos primero sobre el section para tener la estructura y despues aplicaremos maquillaje. -->
+            
+            <article id="Color"> 
+
+                <!-- En este primer div tengo el tercer ojo.-->
+                <div id="Caract1"> 
+                    <p> Tercer Ojo  <i class="fa fa-eye" id="Imagen1"></i> </p>
+                </div>
+
+                <!-- En este segundo div tengo el face (algo, no alcanzo a leer en la imagen). Solo le pondré face. -->
+                <div id="Caract2"> 
+                    <p> Face <i class="fa fa-hand-peace"></i> </p>
+                </div>
+
+                <!-- En este ultimo div tengo el hecho de que cambian de color. Asi que le pondre tal cual cambian de color y su respectivo icono. -->
+                <div id="Caract3"> 
+                    <p> Cambian de color <i class="fas fa-paint-brush"></i> </p>
+                </div>
+
+            </article>  
+
+        </section>
+
+        <!-- Cerre la seccion anterior que era solo una parte de poner las caracteristicas. Asi que la cerre y abrire otra para poner las tres imagenes alineadas y juntitas. -->
+
+        <section>
+            <div id="TerceraParte">  
+
+            <img src="./assets/Imagenes/iguana-2.jpg" alt="Iguana-3">
+
+            <img src="./assets/Imagenes/iguana-3.jpg" alt="Iguana-4">
+
+            <img src="./assets/Imagenes/iguana-4.jpg" alt="Iguana-5">
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Aqui ya cerramos el main, porque terminamos la parte central ce la pagina. Ahora viene el footer. Por lo que alcanzo a ver el footer es solo un texto con el fondo de un color diferente. -->
+
+    <footer>  
+    
+        <p> Si quieres saber mas de igunas visita la siguiente pagina: 
+            <a href="https://www.anipedia.net/iguanas/"> Iguanas</a>
+        </p>
+        
+    </footer>
+
+</body>
+
+</html>
