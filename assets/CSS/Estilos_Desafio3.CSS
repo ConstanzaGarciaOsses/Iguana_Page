@@ -1,0 +1,131 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+h1{
+    background-color: black;
+    color:white;
+    padding:1.5rem;
+    text-align: center;
+    padding-right:39rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+}
+
+/* Hasta aqui vamos bien. */
+
+.ImagenFondo{
+    background-image: url("../Imagenes/bg-header.jpg"); /* URL de la imagen */
+    background-size: cover; /* Quiero que me cubra todo el fondo */
+    height: 68rem; /* Con esa medida se ve la imagen completa*/
+}
+
+/* La imagen de fondo se ve bien */
+
+/* Entonces primero trabajo sobre la etiqueta article para ver donde van a ir posicionados los elementos (la imagen y parrafo correspondiente) */ 
+
+article{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    gap: 5rem;
+}
+
+/* Hasta aqui se ve bien la estructura de los elementos. Uno al lado del otro, con su respectivo espacio.*/
+
+.Iguana2{
+    background-image: url("../Imagenes/iguana-1.jpg"); /* Importo la iguana a la pagina */
+    background-repeat: no-repeat; /* Que no se repita la imagen */
+    padding-left:25rem;
+    padding-right: 25rem;
+    margin-left: 5rem;
+    margin-top: 4rem;
+}
+
+/* Hasta aqui de nuevo vamos bien. Tengo alineada la iguana 2 con el texto. Se ve toda la imagen y esta bien posicionada. Se ve bien */
+
+article p {
+    background-color: black;
+    color:white;
+    font-size: 2rem;
+    padding: 7rem;
+    padding-left: 1rem;
+}
+
+/* Vamos que se puede, hasta aqui tambien esta todo ok. Tengo mi parrafo, "centrado" con medidas de padding que me conviene para que se vea hermoso. */ 
+
+#SubTitulo{
+    background-color: rgb(43, 42, 42);
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 3rem;
+    display: block;
+}
+
+/* Como vamos de a poco, para no confundirnos como las ultimas 5 horas, diré que este pequeño titulo "Caracteristicas" esta bien. Se ve bien y esta centrado. Vamos por lo que sigue */
+
+#Color{
+    background-color:rgb(43,42,42)
+}
+
+#Caract1 p{
+    background-color:rgb(43,42,42);
+    font-size: 3rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    padding-left: 12rem; /* Esta lo ocupe para centrar los iconos con el titulo */
+}
+
+#Caract2 p{
+    background-color:rgb(43,42,42);
+    font-size: 3rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#Caract3 p{
+    background-color:rgb(43,42,42);
+    font-size: 3rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:2rem
+}
+
+/* Hasta aqui, solo me falta la imagen que se ve muy pequeña, pero seguiré para no quedarme pegada. Ya es tarde */
+
+/* Esta tercera parte no fue complicada asi que esta lista. Vamos bien */
+
+#TerceraParte{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    height: 20rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+/* Esta parte del footer igual esta lista asi que rebien. Solo falto el tema de las imagenes de arriba */
+
+footer{
+    background-color: rgb(43, 42, 42);
+    color:white;
+    padding:2rem;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+
+

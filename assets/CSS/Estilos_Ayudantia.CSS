@@ -1,0 +1,49 @@
+*{
+    padding:0rem;
+    margin:0rem;
+}
+.banner{
+    background-image: url("../Imagenes/bg-header.jpg");
+    height: 40rem;
+    display:flex;
+    flex-direction: row;
+    background-color: black;
+}
+h1{
+    color: white;
+}
+h3{
+    color:white
+}
+#Slogan-container{
+    background-color: black;
+    text-align: center;
+    align-items: start;
+    height: 5rem;
+    width: 40rem;
+    line-height: 1.3;
+    margin-right:5rem;
+    margin: top 1rem;;
+}
+body{
+    background-color: black;
+}
+main{
+    background-image: url("../Imagenes/iguana-1.jpg");
+}
+article {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    gap: 2rem;
+    margin-top:3rem;
+    height: 10rem;
+} 
+article img{
+    width: 20rem;
+    height: 20rem;
+}
+article p{
+    width: 50%;
+    height: 20rem;
+}
